@@ -12,6 +12,10 @@ Develop a program using Anchor that mints a collection of NFTs. Create a vault t
 
 - Create a swap program using Native Rust or Anchor that allows users to exchange $SOL for NFTs.
 
+### SDK Docs
+
+https://dannpl.github.io/nftx/classes/default.html
+
 ### Install
 
 Install these dependencies over:
