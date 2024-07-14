@@ -23,4 +23,8 @@ pub mod nftx {
     pub fn mint_nft(ctx: Context<MintNft>, args: MintNftArgs) -> Result<()> {
         instructions::mint_nft(ctx, args)
     }
+
+    pub fn swap(ctx: Context<Swap>) -> Result<()> {
+        instructions::swap(ctx)
+    }
 }

@@ -22,4 +22,7 @@ pub enum CustomError {
 
     #[msg("Supply has reached the maximum limit")]
     SupplyReached,
+
+    #[msg("Failed to swap SOL to NFT")]
+    SwapFailed,
 }
