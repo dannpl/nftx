@@ -37,7 +37,7 @@ pub struct MintNft<'info> {
         mint::authority = signer,
         extensions::metadata_pointer::authority = collection,
         extensions::metadata_pointer::metadata_address = mint,
-        seeds = [b"mint", collection.name.as_bytes() ,args.name.as_bytes()], bump
+        seeds = [b"mint", args.name.as_bytes()], bump
     )]
     pub mint: InterfaceAccount<'info, Mint>,
 

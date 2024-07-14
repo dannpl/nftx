@@ -31,7 +31,6 @@ pub fn initialize_vault(ctx: Context<InitializeVault>, args: InitializeVaultArgs
     vault.name = args.name;
     vault.amount_users = 0;
     vault.collection = args.collection;
-    vault.slots = args.slots;
 
     Ok(())
 }

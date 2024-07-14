@@ -5,7 +5,6 @@ pub struct Vault {
     pub bump: u8,
     pub authority: Pubkey,
     pub init_ts: i64,
-    pub slots: u64,
     pub amount_users: u64,
     pub name: String,
     pub collection: Pubkey,
@@ -14,7 +13,6 @@ pub struct Vault {
 #[derive(AnchorSerialize, AnchorDeserialize, Clone)]
 pub struct InitializeVaultArgs {
     pub name: String,
-    pub slots: u64,
     pub collection: Pubkey,
 }
 

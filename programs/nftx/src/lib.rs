@@ -2,6 +2,7 @@ use anchor_lang::prelude::*;
 use instructions::*;
 use state::*;
 
+mod constants;
 mod errors;
 mod instructions;
 mod state;
@@ -33,5 +34,13 @@ pub mod nftx {
         args: InitializeVaultArgs,
     ) -> Result<()> {
         instructions::initialize_vault(ctx, args)
+    }
+
+    pub fn stake_nft(ctx: Context<StakeNFT>, args: StakeNFTArgs) -> Result<()> {
+        instructions::stake_nft(ctx, args)
+    }
+
+    pub fn unstake_nft(ctx: Context<UnstakeNFT>, args: UnstakeNFTArgs) -> Result<()> {
+        instructions::unstake_nft(ctx, args)
     }
 }
