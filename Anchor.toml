@@ -3,11 +3,12 @@ seeds = true
 skip-lint = false
 resolution = true
 
-[programs.localnet]
-nftx = "Fb4qrJcT6BzESLcqHk8NPKTdVYddri6DaMr8kN1qPvhz"
+
+[programs.devnet]
+nftx = "BGQFcsJJopkMEXHP3hLcad4dpKRbPUvh5utMA4932HxF"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

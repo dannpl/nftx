@@ -7,7 +7,7 @@ mod errors;
 mod instructions;
 mod state;
 
-declare_id!("Fb4qrJcT6BzESLcqHk8NPKTdVYddri6DaMr8kN1qPvhz");
+declare_id!("BGQFcsJJopkMEXHP3hLcad4dpKRbPUvh5utMA4932HxF");
 
 #[program]
 pub mod nftx {

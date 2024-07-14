@@ -5,7 +5,7 @@
  * IDL can be found at `target/idl/nftx.json`.
  */
 export type Nftx = {
-  address: 'Fb4qrJcT6BzESLcqHk8NPKTdVYddri6DaMr8kN1qPvhz'
+  address: 'BGQFcsJJopkMEXHP3hLcad4dpKRbPUvh5utMA4932HxF'
   metadata: {
     name: 'nftx'
     version: '0.1.0'
