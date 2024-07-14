@@ -1,12 +1,8 @@
-<div align="center">
-  <h1>Triad Protocol</h1>
-</div>
+# NFTX
 
-The official Triad Protocol. trading your prefer companie in web3.
+### SDK Docs
 
-### Docs
-
-## Quick Setup
+https://dannpl.github.io/nftx/classes/default.html
 
 ### Install
 
