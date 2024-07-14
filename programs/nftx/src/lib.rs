@@ -27,4 +27,11 @@ pub mod nftx {
     pub fn swap(ctx: Context<Swap>) -> Result<()> {
         instructions::swap(ctx)
     }
+
+    pub fn initialize_vault(
+        ctx: Context<InitializeVault>,
+        args: InitializeVaultArgs,
+    ) -> Result<()> {
+        instructions::initialize_vault(ctx, args)
+    }
 }
