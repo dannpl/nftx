@@ -19,4 +19,8 @@ pub mod nftx {
     ) -> Result<()> {
         instructions::initialize_collection(ctx, args)
     }
+
+    pub fn mint_nft(ctx: Context<MintNft>, args: MintNftArgs) -> Result<()> {
+        instructions::mint_nft(ctx, args)
+    }
 }

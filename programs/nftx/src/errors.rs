@@ -19,4 +19,7 @@ pub enum CustomError {
 
     #[msg("Failed unstake NFT")]
     UnstakeFailed,
+
+    #[msg("Supply has reached the maximum limit")]
+    SupplyReached,
 }

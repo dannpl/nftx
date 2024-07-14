@@ -27,3 +27,9 @@ impl Collection {
 
     pub const SPACE: usize = 8 + std::mem::size_of::<Self>();
 }
+
+#[derive(AnchorSerialize, AnchorDeserialize)]
+pub struct MintNftArgs {
+    pub name: String,
+    pub uri: String,
+}
