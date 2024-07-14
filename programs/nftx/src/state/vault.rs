@@ -13,7 +13,6 @@ pub struct Vault {
 #[derive(AnchorSerialize, AnchorDeserialize, Clone)]
 pub struct InitializeVaultArgs {
     pub name: String,
-    pub collection: Pubkey,
 }
 
 impl Vault {

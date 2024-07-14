@@ -30,7 +30,7 @@ pub fn initialize_vault(ctx: Context<InitializeVault>, args: InitializeVaultArgs
     vault.init_ts = Clock::get()?.unix_timestamp;
     vault.name = args.name;
     vault.amount_users = 0;
-    vault.collection = args.collection;
+    vault.collection = *ctx.accounts.collection.to_account_info().key;
 
     Ok(())
 }

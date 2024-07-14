@@ -1,17 +1,13 @@
-[toolchain]
-
 [features]
-resolution = true
+seeds = true
 skip-lint = false
+resolution = true
 
 [programs.localnet]
 nftx = "Fb4qrJcT6BzESLcqHk8NPKTdVYddri6DaMr8kN1qPvhz"
 
-[registry]
-url = "https://api.apr.dev"
-
 [provider]
-cluster = "Localnet"
+cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

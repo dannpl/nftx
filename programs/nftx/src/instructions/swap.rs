@@ -16,9 +16,6 @@ pub struct Swap<'info> {
     pub collection: Box<Account<'info, Collection>>,
 
     #[account(mut)]
-    pub token_to_ata: Box<InterfaceAccount<'info, TokenAccount>>,
-
-    #[account(mut)]
     pub nft_mint: Box<InterfaceAccount<'info, Mint>>,
 
     #[account(
